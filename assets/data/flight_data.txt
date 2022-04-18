@@ -1,0 +1,55 @@
+[{
+		"id": "1",
+		"flightNo": "BKN7",
+		"fightCompany": "spicejet",
+		"fightLogo": "https://logodix.com/logo/2132783.png",
+		"deptTime": "08:30am",
+		"arrTime": "10:20am",
+		"duration": "02h 30m",
+		"flightType": "non stop",
+		"cost": "$230"
+	},
+	{
+		"id": "2",
+		"flightNo": "XBN7",
+		"fightCompany": "indigo",
+		"fightLogo": "https://edubard.in/media/media/Indigo_Logo.png",
+		"deptTime": "08:30am",
+		"arrTime": "10:20am",
+		"duration": "02h 30m",
+		"flightType": "non stop",
+		"cost": "$330"
+	},
+	{
+		"id": "3",
+		"flightNo": "BKN7",
+		"fightCompany": "QATAR",
+		"fightLogo": "https://dwglogo.com/wp-content/uploads/2016/03/Qatar_Airways_logo_black-1024x576.png",
+		"deptTime": "08:30am",
+		"arrTime": "10:20am",
+		"duration": "02h 30m",
+		"flightType": "Connected",
+		"cost": "$230"
+	},
+	{
+		"id": "4",
+		"flightNo": "BKN7",
+		"fightCompany": "Britis airways",
+		"fightLogo": "https://p7.hiclipart.com/preview/535/424/1002/british-airways-boeing-747-travel-united-kingdom-logo-united-airlines-logo.jpg",
+		"deptTime": "08:30am",
+		"arrTime": "10:20am",
+		"duration": "02h 30m",
+		"flightType": "Connected",
+		"cost": "$230"
+	}, {
+		"id": "5",
+		"flightNo": "BKN7",
+		"fightCompany": "spicejet",
+		"fightLogo": "https://logodix.com/logo/2132783.png",
+		"deptTime": "08:30am",
+		"arrTime": "10:20am",
+		"duration": "02h 30m",
+		"flightType": "non stop",
+		"cost": "$230"
+	}
+]

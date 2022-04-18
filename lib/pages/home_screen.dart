@@ -4,7 +4,7 @@ import 'package:flight_booking_ui/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import '../components/my_form_field.dart';
+import 'package:flight_booking_ui/route.dart' as route;
 import '../components/my_network_avatar.dart';
 import '../components/my_theme_button.dart';
 
@@ -310,7 +310,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 16.0,),
+                  const SizedBox(height: 16.0,),
                   Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
@@ -356,7 +356,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: MyThemeButton(
                       buttonText: 'SEARCH FLIGHT',
                       fontSize: 12.0,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, route.flightPage);
+                      },
                     ),
                   ),
                 ],
