@@ -1,3 +1,4 @@
+import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:flight_booking_ui/components/my_bold_text.dart';
 import 'package:flight_booking_ui/components/my_regular_text.dart';
 import 'package:flight_booking_ui/utils/colors_utils.dart';
@@ -114,7 +115,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: backgroundColor,
-                      border: Border.all(width: 0.5, color: secondaryTextColor),
+                      border:
+                          Border.all(width: 0.5, color: secondaryTextColor),
                       borderRadius: const BorderRadius.all(Radius.circular(
                               5.0) //                 <--- border radius here
                           ),
@@ -157,15 +159,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                     ),
                   ),
-                  const SizedBox(
-                    height: 16.0,
-                  ),
+                  const SizedBox(height: 16.0,),
                   Container(
                     width: double.infinity,
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: backgroundColor,
-                      border: Border.all(width: 0.5, color: secondaryTextColor),
+                      border:
+                          Border.all(width: 0.5, color: secondaryTextColor),
                       borderRadius: const BorderRadius.all(Radius.circular(
                               5.0) //                 <--- border radius here
                           ),
@@ -237,7 +238,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                     align: TextAlign.start,
                                     fontSize: 10.0,
                                   )),
-                              const SizedBox(height: 5.0,),
+                              const SizedBox(
+                                height: 5.0,
+                              ),
                               Row(
                                 children: [
                                   const Align(
@@ -247,13 +250,17 @@ class _HomeScreenState extends State<HomeScreen> {
                                         color: primaryColor,
                                         size: 15.0,
                                       )),
-                                  const SizedBox(width: 5.0,),
+                                  const SizedBox(
+                                    width: 5.0,
+                                  ),
                                   Align(
                                       alignment: Alignment.centerLeft,
                                       child: MyRegularText(
-                                          label: DateFormat('yyyy-MMM-dd')
-                                              .format(DateTime.now())
-                                              .toString(),fontWeight: FontWeight.bold,)),
+                                        label: DateFormat('yyyy-MMM-dd')
+                                            .format(DateTime.now())
+                                            .toString(),
+                                        fontWeight: FontWeight.bold,
+                                      )),
                                 ],
                               ),
                             ],
@@ -285,7 +292,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                     align: TextAlign.start,
                                     fontSize: 10.0,
                                   )),
-                              const SizedBox(height: 5.0,),
+                              const SizedBox(
+                                height: 5.0,
+                              ),
                               Row(
                                 children: [
                                   const Align(
@@ -295,13 +304,17 @@ class _HomeScreenState extends State<HomeScreen> {
                                         color: primaryColor,
                                         size: 15.0,
                                       )),
-                                  const SizedBox(width: 5.0,),
+                                  const SizedBox(
+                                    width: 5.0,
+                                  ),
                                   Align(
                                       alignment: Alignment.centerLeft,
                                       child: MyRegularText(
                                         label: DateFormat('yyyy-MMM-dd')
                                             .format(DateTime.now())
-                                            .toString(),fontWeight: FontWeight.bold,)),
+                                            .toString(),
+                                        fontWeight: FontWeight.bold,
+                                      )),
                                 ],
                               ),
                             ],
@@ -310,17 +323,17 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 16.0,),
+                  const SizedBox(
+                    height: 16.0,
+                  ),
                   Container(
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: backgroundColor,
-                      border: Border.all(
-                          width: 0.5, color: secondaryTextColor),
-                      borderRadius: const BorderRadius.all(
-                          Radius.circular(
+                      border: Border.all(width: 0.5, color: secondaryTextColor),
+                      borderRadius: const BorderRadius.all(Radius.circular(
                               5.0) //                 <--- border radius here
-                      ),
+                          ),
                     ),
                     child: Column(
                       children: [
@@ -331,7 +344,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               align: TextAlign.start,
                               fontSize: 10.0,
                             )),
-                        const SizedBox(height: 5.0,),
+                        const SizedBox(
+                          height: 5.0,
+                        ),
                         Row(
                           children: const [
                             Align(
@@ -341,11 +356,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                   color: primaryColor,
                                   size: 15.0,
                                 )),
-                            SizedBox(width: 5.0,),
+                            SizedBox(
+                              width: 5.0,
+                            ),
                             Align(
                                 alignment: Alignment.centerLeft,
                                 child: MyRegularText(
-                                  label: '2 Adults',fontWeight: FontWeight.bold,)),
+                                  label: '2 Adults',
+                                  fontWeight: FontWeight.bold,
+                                )),
                           ],
                         ),
                       ],

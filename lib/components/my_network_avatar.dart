@@ -19,6 +19,8 @@ class MyNetworkImageAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CachedNetworkImage(
+      height: 40.0,
+      width: 50.0,
       imageUrl: filePath ?? "",
       placeholder: (context, url) =>  Container(
         padding: const EdgeInsets.fromLTRB(5.0, 5.0, 5.0, 5.0),

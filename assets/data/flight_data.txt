@@ -6,7 +6,7 @@
 		"deptTime": "08:30am",
 		"arrTime": "10:20am",
 		"duration": "02h 30m",
-		"flightType": "non stop",
+		"flightType": "Non stop",
 		"cost": "$230"
 	},
 	{
@@ -17,7 +17,7 @@
 		"deptTime": "08:30am",
 		"arrTime": "10:20am",
 		"duration": "02h 30m",
-		"flightType": "non stop",
+		"flightType": "Non stop",
 		"cost": "$330"
 	},
 	{
@@ -35,7 +35,7 @@
 		"id": "4",
 		"flightNo": "BKN7",
 		"fightCompany": "Britis airways",
-		"fightLogo": "https://p7.hiclipart.com/preview/535/424/1002/british-airways-boeing-747-travel-united-kingdom-logo-united-airlines-logo.jpg",
+		"fightLogo": "https://logos-world.net/wp-content/uploads/2021/02/British-Airways-Logo.png",
 		"deptTime": "08:30am",
 		"arrTime": "10:20am",
 		"duration": "02h 30m",
