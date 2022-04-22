@@ -41,7 +41,7 @@ dependencies:
   provider: ^6.0.2
   cached_network_image: ^3.2.0
   intl: ^0.17.0
-  assorted_layout_widgets: ^5.6.1
+  font_awesome_flutter: ^9.2.0
 
 dev_dependencies:
   flutter_test:

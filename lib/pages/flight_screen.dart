@@ -3,6 +3,7 @@ import 'package:flight_booking_ui/components/my_regular_text.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../components/my_network_avatar.dart';
 import '../utils/colors_utils.dart';
@@ -59,12 +60,7 @@ class _FlightScreenState extends State<FlightScreen> {
                       ],
                     ),
                   ),
-                  const Padding(
-                      padding: EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 0.0),
-                      child: Icon(
-                        Icons.menu,
-                        color: primaryColor,
-                      ))
+                  const Icon(FontAwesomeIcons.filter)
                 ],
               ),
               Expanded(

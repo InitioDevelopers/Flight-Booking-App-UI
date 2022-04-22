@@ -1,4 +1,3 @@
-import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
 import 'package:flight_booking_ui/components/my_bold_text.dart';
 import 'package:flight_booking_ui/components/my_regular_text.dart';
 import 'package:flight_booking_ui/utils/colors_utils.dart';
@@ -115,8 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: backgroundColor,
-                      border:
-                          Border.all(width: 0.5, color: secondaryTextColor),
+                      border: Border.all(width: 0.5, color: secondaryTextColor),
                       borderRadius: const BorderRadius.all(Radius.circular(
                               5.0) //                 <--- border radius here
                           ),
@@ -159,14 +157,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 16.0,),
+                 SizedBox(height: 16.0,),
                   Container(
                     width: double.infinity,
                     padding: const EdgeInsets.all(16.0),
                     decoration: BoxDecoration(
                       color: backgroundColor,
-                      border:
-                          Border.all(width: 0.5, color: secondaryTextColor),
+                      border: Border.all(width: 0.5, color: secondaryTextColor),
                       borderRadius: const BorderRadius.all(Radius.circular(
                               5.0) //                 <--- border radius here
                           ),
